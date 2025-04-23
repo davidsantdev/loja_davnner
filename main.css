@@ -1,0 +1,188 @@
+
+header{
+    background-color: #28251F;
+    align-items: center;
+    display: flex;
+    gap: 400px;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+
+
+
+
+
+
+
+    @media (max-width: 1023px) {
+        
+        
+    }
+
+    
+
+
+
+
+    
+}
+    header img{
+        max-width: 200px;
+        align-items: center;
+        display: flex;
+        margin: 10px;
+        width: 100%;
+
+        
+
+        
+
+        
+    }
+
+    form{
+        
+        display: flex;
+        justify-content:end ;
+
+    }
+    .container-carousel{
+        max-width: 100%;
+    }
+form input{
+    background-color: #28251F ;
+}
+
+.input-icon{
+    position: relative;
+    max-width: 250px;
+
+    
+}
+
+
+.input-icon i {
+    position: absolute;
+    top: 67%;
+    left: 175px;
+    transform: translateY(-50%);
+    color: #888;
+    font-size: 23px
+}
+.input-icon input{
+    border-radius: 15px;
+    background-color: #6a665d;
+    color:white ;
+    border: 0;
+}
+
+.imagem{
+    padding-top: 50px;
+    width: 200%;
+    max-width: 600px; 
+    height: auto;
+    aspect-ratio: 4 / 4; 
+    object-fit: cover; 
+    display: block;
+    margin: 0 auto;
+
+}
+.container{
+    margin: 0;
+    padding: 0%;
+    display: flex;
+    gap:30px;
+
+    @media (max-width: 1023px) {
+        display: block;
+        gap: 10px;
+        text-align: center;
+        
+        
+    }
+
+
+}
+.texto{
+    padding-top: 100px;
+    font-size: 20px;
+    @media (max-width: 1023px) {
+        padding-top: 10px;;
+        
+    }
+}
+.preco-antigo {
+    text-decoration: line-through;
+    color: gray;
+    margin-right: 10px;
+}
+button .compra{
+    background-color: black;
+}
+.container-produtos img{
+    max-width: 240px;
+}
+.container-produtos {
+    margin: 100px;
+    background-color: #ffffff;
+    padding-top: 100px;
+    display:flex;
+    justify-content:center ;
+
+    align-items:center ;
+    gap: 100px;
+    
+
+
+
+
+    
+}
+.produto{
+    width: 200px;
+    @media (max-width: 1023px) {
+        
+    
+        display: wrap;
+    }
+    
+
+}
+
+.produto button{
+    background-color: black;
+    color: white;
+    width: 200px;
+    border-radius: 20px;
+    border: 0;
+    font-size: 25px;
+    
+}
+*{
+    font-family: "Roboto";
+}
+.new{
+    color: green;
+}
+.container-nav{
+
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1023px) {
+
+
+    }
+
+    .container-produtos {
+    flex-wrap: wrap;
+    gap: 100px;
+    }
+
+    .produto {
+    margin-bottom: 20px;
+    }
+*{
+    overflow-x: hidden;
+}
