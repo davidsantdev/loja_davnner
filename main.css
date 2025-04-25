@@ -123,14 +123,14 @@ button .compra{
     max-width: 240px;
 }
 .container-produtos {
-    margin: 100px;
+    margin: 0px;
     background-color: #ffffff;
-    padding-top: 100px;
+    padding-top: 50px;
     display:flex;
     justify-content:center ;
 
     align-items:center ;
-    gap: 100px;
+    gap: 50px;
     
 
 
@@ -185,4 +185,80 @@ button .compra{
     }
 *{
     overflow-x: hidden;
+}
+
+
+.adress{
+    color: rgba(255, 255, 255, 0.632);
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    gap: 10px;
+
+}
+
+.container-login{
+    position: relative;
+    box-shadow: 0 4px 22px rgba(0, 0, 0, 0.15);
+    margin:40px;
+    background-color: #ffffff;
+    max-width: 70%;
+    display: flex;
+
+    border-radius: 20px;
+    
+}
+.log{
+    right: 750px;
+    background-color: #f9eded;
+    border: #ffffff 2px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 290px;
+    height: 40px;
+    
+    
+
+}
+::placeholder{
+    color: rgba(86, 86, 86, 0.737);
+}
+h3{
+    text-align: center;
+    padding: 10px;
+    margin-top: 0px;
+    
+}
+.linha-dupla{
+    display: flex;
+    flex-direction: column;
+    max-width: 700%;
+    align-items: center;
+    padding-top: 100px;
+    gap: 20px;
+
+
+}
+
+.roxo {
+    max-width: 300px;
+    height: auto;
+    align-self: flex-start;
+    margin-left: auto;
+}
+.forget{
+    padding-top: 70px;
+    position: relative;
+    right: 170px ;
+}
+.container{
+    display: none;
+}
+button .botao{
+    display: but;
+}
+.container-fundo{
+    background-color: #d8dfef;
 }
